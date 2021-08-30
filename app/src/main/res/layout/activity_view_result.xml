@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".ViewResult">
+
+    <TextView
+            android:id="@+id/titleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/titleResult"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/titleTime"
+            android:layout_width="35dp"
+            android:layout_height="16dp"
+            android:text="@string/titleTime"
+            app:layout_constraintBottom_toBottomOf="@+id/timeView"
+            app:layout_constraintEnd_toStartOf="@+id/timeView"
+            app:layout_constraintTop_toTopOf="@+id/timeView" />
+
+    <TextView
+            android:id="@+id/timeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/defTime"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleView" />
+
+    <TextView
+            android:id="@+id/scoreView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/defscore"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeView" />
+
+    <Button
+            android:id="@+id/view1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/view1"
+            app:layout_constraintEnd_toStartOf="@+id/view2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scoreView" />
+
+    <Button
+            android:id="@+id/view2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/view2"
+            app:layout_constraintEnd_toStartOf="@+id/view3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view1"
+            app:layout_constraintTop_toTopOf="@+id/view1" />
+
+    <Button
+            android:id="@+id/view3"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/view3"
+            app:layout_constraintEnd_toStartOf="@+id/view4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view2"
+            app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <Button
+            android:id="@+id/view4"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/view4"
+            app:layout_constraintEnd_toStartOf="@+id/view5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view3"
+            app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <Button
+            android:id="@+id/view5"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/view5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view4"
+            app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <Button
+            android:id="@+id/view6"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/view6"
+            app:layout_constraintEnd_toStartOf="@+id/view7"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <Button
+            android:id="@+id/view7"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/view7"
+            app:layout_constraintEnd_toStartOf="@+id/view8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view6"
+            app:layout_constraintTop_toTopOf="@+id/view6" />
+
+    <Button
+            android:id="@+id/view8"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/view8"
+            app:layout_constraintEnd_toStartOf="@+id/view9"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view7"
+            app:layout_constraintTop_toTopOf="@+id/view7" />
+
+    <Button
+            android:id="@+id/view9"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/view9"
+            app:layout_constraintEnd_toStartOf="@+id/view10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view8"
+            app:layout_constraintTop_toTopOf="@+id/view8" />
+
+    <Button
+            android:id="@+id/view10"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/view10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view9"
+            app:layout_constraintTop_toTopOf="@+id/view9" />
+
+    <View
+            android:id="@+id/view"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+    <TextView
+            android:id="@+id/questNumView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/defaultQuestNumView"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <Button
+            android:id="@+id/backmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+            android:id="@+id/questBodyView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/defaltQuestView"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/questNumView" />
+
+    <ImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/questBodyView"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+            android:id="@+id/answerView1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/answerView"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/answerView2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toTopOf="@+id/answerView2" />
+
+    <TextView
+            android:id="@+id/answerView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/answerView"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/answerView1"
+            app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <TextView
+            android:id="@+id/answerView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/answerView"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/answerView4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/answerView1" />
+
+    <TextView
+            android:id="@+id/answerView4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/answerView"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/answerView3"
+            app:layout_constraintTop_toTopOf="@+id/answerView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

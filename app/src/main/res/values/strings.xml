@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="timerText">00:00</string>
+    <string name="countQueizText">0問目</string>
+    <string name="back">戻る</string>
+    <string name="view1">1</string>
+    <string name="view2" >2</string>
+    <string name="view3">3</string>
+    <string name="view4">4</string>
+    <string name="view5">5</string>
+    <string name="view6" >6</string>
+    <string name="view7">7</string>
+    <string name="view8">8</string>
+    <string name="view9">9</string>
+    <string name="view10">10</string>
+    <string name="titleResult">結果発表</string>
+    <string name="titleTime">時間 </string>
+    <string name="defTime" >00:00</string>
+    <string name="defscore">0/10</string>
+    <string name="defaultQuestNumView">0問目</string>
+    <string name="defaltQuestView">問題文</string>
+    <string name="answerView">答え</string>
+    <string name="time_format">"%1d:%2$02d"</string>
+    <string name="cout_quest_format">問目</string>
+    <string name="cout_quest_format_1">/10</string>
+    <string name="title1">s20</string>
+    <string name="title2">クイズアプリ</string>
+    <string name="pulldown_hint">誰の問題を解くか</string>
+    <string name="pulldown_hint2">⇓⇓⇓選択してください⇓⇓⇓</string>
+    <string name="next">スタート</string>
+    <string name="allert">※自分が作成した時点で提出されていた</string>
+    <string name="allert2">データしかありません</string>
 </resources>
