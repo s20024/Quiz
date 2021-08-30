@@ -179,7 +179,7 @@ class Question : AppCompatActivity() {
 
     fun nextQuestion() {
         ++i
-        if (i == 10) {
+        if (i >= 10) {
             timer.cancel()
             downTimer.cancel()
             resultTimer.cancel()
